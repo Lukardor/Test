@@ -1,0 +1,12 @@
+:root { color-scheme: dark; }
+body { margin: 0; font-family: Inter, system-ui, sans-serif; background: #0b0f18; color: #eaf2ff; }
+header { padding: 12px 18px; border-bottom: 1px solid #293247; background: #121a2b; }
+h1 { margin: 0 0 10px; font-size: 1.4rem; }
+h1 span { color: #75b7ff; }
+.hud { display: flex; gap: 12px; flex-wrap: wrap; }
+.hud div { background: #1c273f; padding: 8px 10px; border-radius: 10px; }
+main { display: grid; grid-template-columns: 1fr 320px; gap: 12px; padding: 12px; }
+canvas { width: 100%; height: auto; border-radius: 12px; border: 1px solid #2a3550; background: #1b2538; }
+aside { background: #111826; border: 1px solid #2a3550; border-radius: 12px; padding: 12px; }
+#events { margin: 0; padding-left: 16px; max-height: 520px; overflow: auto; }
+li { margin-bottom: 8px; }

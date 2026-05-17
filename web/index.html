@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Forza Horizon 6 - Web Prototype</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Forza Horizon 6 <span>Web Prototype</span></h1>
+    <div class="hud">
+      <div id="speed">0 km/h</div>
+      <div id="weather">Wetter: Sonne</div>
+      <div id="time">Zeit: Tag</div>
+      <div id="players">Server: 1/100</div>
+    </div>
+  </header>
+
+  <main>
+    <canvas id="world" width="1280" height="720" aria-label="Open World Karte"></canvas>
+    <aside>
+      <h2>Events</h2>
+      <ul id="events"></ul>
+      <h3>Steuerung</h3>
+      <p>W/S = Gas/Bremse, A/D = Lenken</p>
+    </aside>
+  </main>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
